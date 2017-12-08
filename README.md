@@ -2,6 +2,10 @@
 
 ## 1 技术栈
 
+**系统和全局安装包**
+* Node.js 8.2.1
+* yarn 1.3.2
+
 **React 全家桶**
 * react 16.0.0 （React核心）  
 * react-dom 16.0.0 （React渲染）        
