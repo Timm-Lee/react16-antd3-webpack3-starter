@@ -1,0 +1,24 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "react-html-attrs",
+    [
+      "transform-runtime",
+      {
+        "helpers": false, // defaults to true
+        "polyfill": false, // defaults to true
+        "regenerator": true, // defaults to true
+        "moduleName": "babel-runtime" // defaults to "babel-runtime"
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css"
+      }
+    ]
+  ]
+}
